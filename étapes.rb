@@ -16,6 +16,7 @@ cd ..
 rspec --init
      require 'rspec'
 bundle install
+touch README.md
 git init
 git add *
 git commit -a -m "create file"
