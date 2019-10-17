@@ -1,3 +1,5 @@
+TERMINAL
+
 mkdir nom_projet
 cd nom_projet
 touch Gemfile
@@ -18,15 +20,24 @@ rspec --init
 bundle install
 touch README.md
 touch app.rb
+
+###########################################################@
+
 git init
 git add *
 git commit -a -m "create file"
 
+###########################################################@
+
 Utiliser vim
 vim nom_du_fichier.rb
 
+###########################################################@
+
 vérifier à quel endroit on est :
      ls
+
+###########################################################@
 
 Dans fichier app.rb
 require 'bundler'
