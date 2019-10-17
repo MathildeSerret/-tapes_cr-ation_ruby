@@ -17,6 +17,7 @@ rspec --init
      require 'rspec'
 bundle install
 touch README.md
+touch app.rb
 git init
 git add *
 git commit -a -m "create file"
@@ -26,3 +27,17 @@ vim nom_du_fichier.rb
 
 vérifier à quel endroit on est :
      ls
+
+Dans fichier app.rb
+require 'bundler'
+Bundler.require
+
+$:.unshift File.expand_path('./../lib', __FILE__)
+require 'boardcase'
+require 'board'
+require 'player'
+require 'game'
+require 'show'
+require 'Application'
+
+Application.new.perform
