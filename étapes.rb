@@ -22,3 +22,6 @@ git commit -a -m "create file"
 
 Utiliser vim
 vim nom_du_fichier.rb
+
+vérifier à quel endroit on est :
+     ls
